@@ -1,18 +1,72 @@
+
 const cfg=window.TEST_CONFIG;
-const gate=document.querySelector('#studentGate'),studentForm=document.querySelector('#studentForm'),testForm=document.querySelector('#testForm'),root=document.querySelector('#exerciseRoot'),results=document.querySelector('#results'),review=document.querySelector('#review');
+const gate=document.querySelector('#studentGate');
+const studentForm=document.querySelector('#studentForm');
+const testForm=document.querySelector('#testForm');
+const root=document.querySelector('#exerciseRoot');
+const results=document.querySelector('#results');
+const review=document.querySelector('#review');
+const jump=document.querySelector('#sectionJump');
 let student=null;
+const allItems=cfg.exercises.flatMap(exercise=>exercise.items);
 const norm=value=>String(value??'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[’‘]/g,"'").replace(/[^a-z0-9']/g,' ').replace(/\s+/g,' ').trim();
-const explain=answer=>{const a=answer[0]; const n=norm(a); if(/^(is|are|am|isn't|aren't|was|were|wasn't|weren't)$/.test(n))return 'Đáp án là “'+a+'”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be.'; if(/can|can't/.test(n))return 'Câu đúng là “'+a+'”. Can đi với động từ nguyên thể; dạng phủ định là can’t.'; if(/don't|doesn't|do you|does /.test(n))return 'Câu đúng là “'+a+'”. Con kiểm tra chủ ngữ và chọn do/does hoặc don’t/doesn’t cho phù hợp.'; if(/there is|there are|there's/.test(n))return 'Câu hoàn chỉnh là “'+a+'”. Dùng There is/There’s với một vật và There are với nhiều vật.'; if(/this|that|these|those/.test(n))return 'Đáp án là “'+a+'”. This/That dùng cho số ít; These/Those dùng cho số nhiều. Con cũng chú ý vật ở gần hay xa.'; if(/i've got|haven't got|hasn't got|has got/.test(n))return 'Câu hoàn chỉnh là “'+a+'”. Con giữ đúng cấu trúc have got/has got và dạng phủ định.'; if(/^(yes|no)$/.test(n))return 'Đáp án là '+a+'. Con đối chiếu kỹ hình với từ hoặc câu trong đề.'; if(/^[a-f]$/.test(n))return 'Nối với phương án '+a.toUpperCase()+'. Con kiểm tra lại nghĩa của hai vế trước khi nối.'; if(a.split(/\s+/).length>2)return 'Câu hoàn chỉnh là “'+a+'”. Con kiểm tra đủ chủ ngữ, động từ và các từ còn lại theo đúng trật tự.'; return 'Đáp án là “'+a+'”. Con quan sát hình hoặc đọc kỹ câu trong đề để nhận ra từ phù hợp.';};
-const allItems=cfg.exercises.flatMap(e=>e.items);
-studentForm.addEventListener('submit',e=>{e.preventDefault();const name=document.querySelector('#studentName').value.trim(),className=document.querySelector('#studentClass').value;if(!name||!className)return;student={name,className};localStorage.setItem('student-profile',JSON.stringify(student));gate.hidden=true;document.body.classList.add('started');});
-try{const saved=JSON.parse(localStorage.getItem('student-profile'));if(saved?.name){document.querySelector('#studentName').value=saved.name}if(saved?.className){document.querySelector('#studentClass').value=saved.className}}catch{}
-cfg.exercises.forEach(ex=>{const section=document.createElement('section');section.className='exercise';section.innerHTML='<header><span>'+ex.number+'</span><div><small>PHẦN '+ex.number+'</small><h2>'+ex.title+'</h2></div><b>/'+ex.items.length+'</b></header><div class="items">'+ex.items.map(item=>'<article class="item" data-id="'+item.id+'"><span class="item-number">'+item.order+'</span><div><label>'+item.label+'</label>'+control(ex,item)+'</div></article>').join('')+'</div>';root.appendChild(section)});
-function control(ex,item){if(ex.type==='letter')return '<div class="pills">'+['a','b','c','d','e','f','g'].map(x=>'<button type="button" data-value="'+x+'">'+x.toUpperCase()+'</button>').join('')+'</div>';if(ex.type==='yesno')return '<div class="pills"><button type="button" data-value="yes">Đúng ✓</button><button type="button" data-value="no">Sai ✗</button></div>';return '<input autocomplete="off" spellcheck="false" placeholder="Nhập câu trả lời">'}
-testForm.addEventListener('click',e=>{const b=e.target.closest('[data-value]');if(!b)return;const item=b.closest('.item');item.querySelectorAll('[data-value]').forEach(x=>x.classList.toggle('selected',x===b));item.dataset.value=b.dataset.value;item.classList.remove('missing');update()});
-testForm.addEventListener('input',e=>{if(e.target.matches('input')){e.target.closest('.item').classList.remove('missing');update()}});
-function value(item){return item.dataset.value??item.querySelector('input')?.value??''}function update(){const done=[...document.querySelectorAll('.item')].filter(x=>norm(value(x))).length;document.querySelector('#progressText').textContent=done+' / '+cfg.total;document.querySelector('#progressBar').style.width=(done/cfg.total*100)+'%'}
-testForm.addEventListener('submit',async e=>{e.preventDefault();const nodes=[...document.querySelectorAll('.item')];const missing=nodes.filter(x=>!norm(value(x)));nodes.forEach(x=>x.classList.toggle('missing',missing.includes(x)));if(missing.length){document.querySelector('#submitHelp').textContent='Bài còn thiếu '+missing.length+' câu. Con hoàn thành các ô được đánh dấu trước nhé.';missing[0].scrollIntoView({behavior:'smooth',block:'center'});return}let score=0;const rows=[];for(const item of allItems){const node=document.querySelector('[data-id="'+item.id+'"]'),user=value(node),ok=item.answers.some(a=>norm(a)===norm(user));if(ok)score++;rows.push({item,user,ok})}document.querySelector('#scoreValue').textContent=score;document.querySelector('#scoreMessage').textContent=score===cfg.total?'Con đã hoàn thành chính xác toàn bộ bài.':('Con xem kỹ '+(cfg.total-score)+' câu cần chữa bên dưới.');review.innerHTML=rows.map(r=>'<article class="review-card '+(r.ok?'correct':'wrong')+'"><span>'+(r.ok?'✓':'!')+'</span><div><small>'+r.item.label+'</small><p>Câu trả lời của con: <b>'+esc(r.user)+'</b></p><p>Đáp án: <b>'+esc(r.item.answers[0])+'</b></p><div class="explanation"><strong>Giải thích</strong><p>'+esc(explain(r.item.answers))+'</p></div></div></article>').join('');testForm.hidden=true;results.hidden=false;results.scrollIntoView({behavior:'smooth'});await record(score)});
-async function record(score){const status=document.querySelector('#recordStatus');status.textContent='Đang ghi kết quả...';const f=cfg.form.fields,p=new URLSearchParams({[f.name]:student.name,[f.className]:student.className,[f.assignmentCode]:cfg.assignmentCode,[f.score]:String(score),[f.total]:String(cfg.total),[f.percent]:String(Math.round(score/cfg.total*100))});try{await fetch(cfg.form.endpoint,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:p.toString()});status.textContent='Kết quả đã được tự động ghi nhận.'}catch{status.textContent='Kết quả đang được lưu lại; vui lòng giữ trang mở trong giây lát.'}}
-document.querySelector('#restart').addEventListener('click',()=>location.reload());
-const dialog=document.querySelector('#sourceDialog');document.querySelector('#openSource').onclick=document.querySelector('#sourceImageButton').onclick=()=>dialog.showModal();document.querySelector('#closeSource').onclick=()=>dialog.close();dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
-function esc(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}update();
+const escapeHtml=value=>String(value).replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
+
+studentForm.addEventListener('submit',event=>{
+  event.preventDefault();
+  const name=document.querySelector('#studentName').value.trim();
+  const className=document.querySelector('#studentClass').value;
+  if(!name||!className)return;
+  student={name,className};
+  localStorage.setItem('student-profile',JSON.stringify(student));
+  gate.hidden=true;
+});
+try{const saved=JSON.parse(localStorage.getItem('student-profile'));if(saved?.name)document.querySelector('#studentName').value=saved.name;if(saved?.className)document.querySelector('#studentClass').value=saved.className}catch{}
+
+cfg.exercises.forEach(exercise=>{
+  const nav=document.createElement('button');nav.type='button';nav.textContent=exercise.number;nav.addEventListener('click',()=>document.querySelector('#exercise-'+exercise.number).scrollIntoView({behavior:'smooth'}));jump.appendChild(nav);
+  const section=document.createElement('section');section.className='exercise';section.id='exercise-'+exercise.number;
+  section.innerHTML='<header><span>'+exercise.number+'</span><div><small>PHẦN '+exercise.number+'</small><h2>'+escapeHtml(exercise.title)+'</h2></div><b>/'+exercise.items.length+'</b></header>'+
+    '<details class="source-reference" open><summary>Hình và yêu cầu của phần '+exercise.number+'</summary><div><img src="../'+exercise.reference+'" alt="Phần '+exercise.number+' của đề gốc"><p>Con quan sát hình và đọc đúng yêu cầu, sau đó làm từng câu ngay bên dưới.</p></div></details>'+
+    '<div class="items">'+exercise.items.map(item=>renderItem(item)).join('')+'</div>';
+  root.appendChild(section);
+});
+
+function renderItem(item){
+  const control=item.type==='choice'
+    ? '<div class="choices">'+item.options.map((option,index)=>'<button type="button" data-value="'+escapeHtml(option)+'" aria-pressed="false"><span>'+String.fromCharCode(65+index)+'</span><b>'+escapeHtml(option)+'</b></button>').join('')+'</div>'
+    : '<input autocomplete="off" spellcheck="false" placeholder="Nhập câu trả lời">';
+  return '<article class="item" data-id="'+item.id+'"><span class="item-number">'+item.sourceNumber+'</span><div class="item-body"><p>'+escapeHtml(item.prompt)+'</p>'+control+'</div></article>';
+}
+
+root.addEventListener('click',event=>{
+  const button=event.target.closest('.choices button');if(!button)return;
+  const item=button.closest('.item');item.querySelectorAll('.choices button').forEach(option=>{const selected=option===button;option.classList.toggle('selected',selected);option.setAttribute('aria-pressed',selected?'true':'false')});item.dataset.value=button.dataset.value;item.classList.remove('missing');updateProgress();
+});
+root.addEventListener('input',event=>{if(!event.target.matches('input'))return;event.target.closest('.item').classList.remove('missing');updateProgress()});
+
+function answerFor(item){return item.type==='choice'?(document.querySelector('[data-id="'+item.id+'"]')?.dataset.value||''):(document.querySelector('[data-id="'+item.id+'"] input')?.value||'')}
+function updateProgress(){const done=allItems.filter(item=>norm(answerFor(item))).length;document.querySelector('#progressText').textContent=done+' / '+cfg.total;document.querySelector('#progressBar').style.width=(done/cfg.total*100)+'%';cfg.exercises.forEach((exercise,index)=>{const count=exercise.items.filter(item=>norm(answerFor(item))).length;jump.children[index].classList.toggle('has-progress',count>0);jump.children[index].classList.toggle('complete',count===exercise.items.length)})}
+
+testForm.addEventListener('submit',event=>{
+  event.preventDefault();
+  document.querySelectorAll('.item.missing').forEach(item=>item.classList.remove('missing'));
+  const missing=allItems.filter(item=>!norm(answerFor(item)));
+  if(missing.length){missing.forEach(item=>document.querySelector('[data-id="'+item.id+'"]').classList.add('missing'));document.querySelector('#submitHelp').textContent='Bài còn thiếu '+missing.length+' câu. Con hoàn thành phần được đánh dấu trước khi xem đáp án.';document.querySelector('[data-id="'+missing[0].id+'"]').scrollIntoView({behavior:'smooth',block:'center'});return}
+  grade();
+});
+
+function grade(){
+  let score=0;review.innerHTML='';
+  allItems.forEach(item=>{const response=answerFor(item);const correct=item.answers.some(answer=>norm(answer)===norm(response));if(correct)score++;const card=document.createElement('article');card.className='review-card '+(correct?'correct':'wrong');card.innerHTML='<span>'+(correct?'✓':'×')+'</span><div><small>Câu '+item.sourceNumber+'</small><h3>'+escapeHtml(item.prompt)+'</h3><p>Con trả lời: <b>'+escapeHtml(response)+'</b></p><p>Đáp án: <b>'+escapeHtml(item.answers[0])+'</b></p><div class="explanation"><b>Giải thích</b><p>'+escapeHtml(item.explanation)+'</p></div></div>';review.appendChild(card)});
+  document.querySelector('#scoreValue').textContent=score;document.querySelector('#scoreMessage').textContent=score===cfg.total?'Con đã làm đúng toàn bộ bài.':score>=12?'Con làm tốt. Hãy đọc kỹ phần giải thích ở những câu chưa đúng.':'Con hãy chữa từng câu chưa đúng rồi làm lại bài một lần nữa.';testForm.hidden=true;results.hidden=false;results.scrollIntoView({behavior:'smooth',block:'start'});recordScore(score);
+}
+
+function recordScore(score){
+  const status=document.querySelector('#recordStatus');status.textContent='Đang ghi nhận kết quả...';
+  const payload=new URLSearchParams();payload.set(cfg.form.fields.name,student?.name||'');payload.set(cfg.form.fields.className,student?.className||'');payload.set(cfg.form.fields.assignmentCode,cfg.assignmentCode);payload.set(cfg.form.fields.score,String(score));payload.set(cfg.form.fields.total,String(cfg.total));payload.set(cfg.form.fields.percent,String(Math.round(score/cfg.total*100)));
+  fetch(cfg.form.endpoint,{method:'POST',mode:'no-cors',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:payload.toString()}).then(()=>status.textContent='Kết quả đã được ghi nhận.').catch(()=>status.textContent='Kết quả chưa thể tự động ghi nhận. Con báo cô để được hỗ trợ.');
+}
+
+document.querySelector('#restart').addEventListener('click',()=>window.location.reload());
+updateProgress();
