@@ -19,6 +19,7 @@ studentForm.addEventListener('submit',event=>{
   if(!name||!className)return;
   student={name,className};
   localStorage.setItem('student-profile',JSON.stringify(student));
+  updateGroupScore();
   gate.hidden=true;
 });
 try{const saved=JSON.parse(localStorage.getItem('student-profile'));if(saved?.name)document.querySelector('#studentName').value=saved.name;if(saved?.className)document.querySelector('#studentClass').value=saved.className}catch{}
@@ -26,8 +27,10 @@ try{const saved=JSON.parse(localStorage.getItem('student-profile'));if(saved?.na
 cfg.exercises.forEach(exercise=>{
   const nav=document.createElement('button');nav.type='button';nav.textContent=exercise.number;nav.addEventListener('click',()=>document.querySelector('#exercise-'+exercise.number).scrollIntoView({behavior:'smooth'}));jump.appendChild(nav);
   const section=document.createElement('section');section.className='exercise';section.id='exercise-'+exercise.number;
-  section.innerHTML='<header><span>'+exercise.number+'</span><div><small>PHẦN '+exercise.number+'</small><h2>'+escapeHtml(exercise.title)+'</h2></div><b>/'+exercise.items.length+'</b></header>'+
-    '<details class="source-reference" open><summary>Hình và yêu cầu của phần '+exercise.number+'</summary><div><img src="../'+exercise.reference+'" alt="Phần '+exercise.number+' của đề gốc"><p>Con quan sát hình và đọc đúng yêu cầu, sau đó làm từng câu ngay bên dưới.</p></div></details>'+
+  const reference=exercise.reference
+    ? '<details class="source-reference" open><summary>Hình và yêu cầu của phần '+exercise.number+'</summary><div><img src="../'+exercise.reference+'" alt="Phần '+exercise.number+' của đề gốc"><p>Con quan sát hình và đọc đúng yêu cầu, sau đó làm từng câu ngay bên dưới.</p></div></details>'
+    : '';
+  section.innerHTML='<header><span>'+exercise.number+'</span><div><small>PHẦN '+exercise.number+'</small><h2>'+escapeHtml(exercise.title)+'</h2></div><b>/'+exercise.items.length+'</b></header>'+reference+
     '<div class="items">'+exercise.items.map(item=>renderItem(item)).join('')+'</div>';
   root.appendChild(section);
 });
@@ -59,7 +62,18 @@ testForm.addEventListener('submit',event=>{
 function grade(){
   let score=0;review.innerHTML='';
   allItems.forEach(item=>{const response=answerFor(item);const correct=item.answers.some(answer=>norm(answer)===norm(response));if(correct)score++;const card=document.createElement('article');card.className='review-card '+(correct?'correct':'wrong');card.innerHTML='<span>'+(correct?'✓':'×')+'</span><div><small>Câu '+item.sourceNumber+'</small><h3>'+escapeHtml(item.prompt)+'</h3><p>Con trả lời: <b>'+escapeHtml(response)+'</b></p><p>Đáp án: <b>'+escapeHtml(item.answers[0])+'</b></p><div class="explanation"><b>Giải thích</b><p>'+escapeHtml(item.explanation)+'</p></div></div>';review.appendChild(card)});
-  document.querySelector('#scoreValue').textContent=score;document.querySelector('#scoreMessage').textContent=score===cfg.total?'Con đã làm đúng toàn bộ bài.':score>=12?'Con làm tốt. Hãy đọc kỹ phần giải thích ở những câu chưa đúng.':'Con hãy chữa từng câu chưa đúng rồi làm lại bài một lần nữa.';testForm.hidden=true;results.hidden=false;results.scrollIntoView({behavior:'smooth',block:'start'});recordScore(score);
+  document.querySelector('#scoreValue').textContent=score;document.querySelector('#scoreMessage').textContent=score===cfg.total?'Con đã làm đúng toàn bộ bài.':score>=12?'Con làm tốt. Hãy đọc kỹ phần giải thích ở những câu chưa đúng.':'Con hãy chữa từng câu chưa đúng rồi làm lại bài một lần nữa.';saveLocalScore(score);testForm.hidden=true;results.hidden=false;results.scrollIntoView({behavior:'smooth',block:'start'});recordScore(score);
+}
+
+function scoreStoreKey(){return 'family-test-scores:'+cfg.short+':'+(student?.className||'')+':'+(student?.name||'').trim().toLowerCase()}
+function readLocalScores(){try{return JSON.parse(localStorage.getItem(scoreStoreKey()))||{}}catch{return {}}}
+function saveLocalScore(score){if(!student)return;const scores=readLocalScores();scores[cfg.assignmentCode]=score;localStorage.setItem(scoreStoreKey(),JSON.stringify(scores));updateGroupScore()}
+function updateGroupScore(){
+  const scoreNode=document.querySelector('#groupScore');const doneNode=document.querySelector('#groupDone');if(!scoreNode||!doneNode)return;
+  if(!student){scoreNode.textContent='— / 45';doneNode.textContent='0/3 bài';return}
+  const scores=readLocalScores();let total=0;let done=0;
+  for(let unit=cfg.groupStart;unit<=cfg.groupEnd;unit++){const code=cfg.short+'-UT'+String(unit).padStart(2,'0');if(Number.isFinite(Number(scores[code]))){total+=Number(scores[code]);done++}}
+  scoreNode.textContent=total+' / 45';doneNode.textContent=done+'/3 bài';
 }
 
 function recordScore(score){
