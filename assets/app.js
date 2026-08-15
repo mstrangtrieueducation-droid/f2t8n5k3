@@ -43,8 +43,11 @@ cfg.units.forEach(unit=>{
 function renderItem(item){
   const control=item.type==='choice'
     ? '<div class="choices">'+item.options.map((option,index)=>'<button type="button" data-value="'+escapeHtml(option)+'" aria-pressed="false"><span>'+String.fromCharCode(65+index)+'</span><b>'+escapeHtml(option)+'</b></button>').join('')+'</div>'
-    : '<input autocomplete="off" spellcheck="false" placeholder="Nhập câu trả lời">';
-  return '<article class="item" data-id="'+item.id+'"><span class="item-number">'+item.sourceNumber+'</span><div class="item-body"><p>'+escapeHtml(item.prompt)+'</p>'+control+'</div></article>';
+    : '<input autocomplete="off" spellcheck="false" placeholder="'+(item.kind==='spelling'?'Nhập từ hoàn chỉnh':'Nhập câu trả lời')+'">';
+  const body=item.visual
+    ? '<div class="spelling-task"><div class="spelling-picture"><img loading="lazy" src="../'+item.visual+'" alt="Hình gợi ý cho câu '+item.sourceNumber+'"></div><div class="spelling-answer"><p>'+escapeHtml(item.prompt)+'</p>'+control+'</div></div>'
+    : '<p>'+escapeHtml(item.prompt)+'</p>'+control;
+  return '<article class="item '+(item.visual?'picture-item':'')+'" data-id="'+item.id+'"><span class="item-number">'+item.sourceNumber+'</span><div class="item-body">'+body+'</div></article>';
 }
 
 root.addEventListener('click',event=>{
