@@ -1,0 +1,905 @@
+{
+  "book": "Family and Friends 2",
+  "short": "FF2",
+  "test": 3,
+  "startUnit": 7,
+  "endUnit": 9,
+  "assignmentCode": "FF2-TEST03",
+  "intro": "Con đọc kỹ từng yêu cầu, chọn hoặc viết câu trả lời trực tiếp trên trang. Đáp án và giải thích tiếng Việt chỉ xuất hiện sau khi con hoàn thành toàn bộ bài.",
+  "total": 45,
+  "classes": [
+    "KIDS 7",
+    "KIDS 8",
+    "KIDS 10",
+    "KIDS 11",
+    "KIDS 14",
+    "KIDS 15",
+    "KIDS 17",
+    "KIDS 18",
+    "KIDS 19",
+    "KIDS 20",
+    "KIDS 21",
+    "KIDS 22",
+    "KIDS 23",
+    "KIDS 25",
+    "KIDS 26",
+    "KIDS 27",
+    "KIDS 28",
+    "KIDS 29",
+    "KIDS 30",
+    "KIDS 31",
+    "KIDS 32",
+    "KIDS 33",
+    "KIDS 34",
+    "KIDS 35",
+    "KIDS 36",
+    "KIDS 37",
+    "KIDS 38"
+  ],
+  "form": {
+    "endpoint": "https://docs.google.com/forms/u/0/d/e/1FAIpQLScm5maJLUzmM1lw-sTx5NG2A8BUONdWKhhEGoqfRRlsjTxOKA/formResponse",
+    "fields": {
+      "name": "entry.626306593",
+      "className": "entry.1998956975",
+      "assignmentCode": "entry.144780084",
+      "score": "entry.1804999547",
+      "total": "entry.1191306277",
+      "percent": "entry.567316915"
+    }
+  },
+  "pdf": "assets/pdf/test-03.pdf",
+  "units": [
+    {
+      "book": "Family and Friends 2",
+      "short": "FF2",
+      "unit": 7,
+      "total": 15,
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Circle the odd one out. Write.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u07e1q1",
+              "order": 1,
+              "unit": 7,
+              "sourceNumber": 2,
+              "prompt": "2. Write the odd one out.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-1-q1.webp",
+              "options": [],
+              "answers": [
+                "cake"
+              ],
+              "explanation": "Đáp án là “cake”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e1q2",
+              "order": 2,
+              "unit": 7,
+              "sourceNumber": 3,
+              "prompt": "3. Write the odd one out.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-1-q2.webp",
+              "options": [],
+              "answers": [
+                "present"
+              ],
+              "explanation": "Đáp án là “present”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e1q3",
+              "order": 3,
+              "unit": 7,
+              "sourceNumber": 4,
+              "prompt": "4. Write the odd one out.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-1-q3.webp",
+              "options": [],
+              "answers": [
+                "balloon"
+              ],
+              "explanation": "Đáp án là “balloon”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Write and match.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u07e2q1",
+              "order": 4,
+              "unit": 7,
+              "sourceNumber": 2,
+              "prompt": "2. pstar ies - Write the word and its matching picture letter (a-f).",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-2-q1.webp",
+              "options": [],
+              "answers": [
+                "pastries b",
+                "pastries, b",
+                "pastries-b"
+              ],
+              "explanation": "Đáp án là “pastries b”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e2q2",
+              "order": 5,
+              "unit": 7,
+              "sourceNumber": 3,
+              "prompt": "3. bourneghi - Write the word and its matching picture letter (a-f).",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-2-q2.webp",
+              "options": [],
+              "answers": [
+                "neighbour c",
+                "neighbour, c",
+                "neighbour-c"
+              ],
+              "explanation": "Đáp án là “neighbour c”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e2q3",
+              "order": 6,
+              "unit": 7,
+              "sourceNumber": 4,
+              "prompt": "4. cochlatoe - Write the word and its matching picture letter (a-f).",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-2-q3.webp",
+              "options": [],
+              "answers": [
+                "chocolate d",
+                "chocolate, d",
+                "chocolate-d"
+              ],
+              "explanation": "Đáp án là “chocolate d”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e2q4",
+              "order": 7,
+              "unit": 7,
+              "sourceNumber": 5,
+              "prompt": "5. wteess - Write the word and its matching picture letter (a-f).",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-2-q4.webp",
+              "options": [],
+              "answers": [
+                "sweets a",
+                "sweets, a",
+                "sweets-a"
+              ],
+              "explanation": "Đáp án là “sweets a”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e2q5",
+              "order": 8,
+              "unit": 7,
+              "sourceNumber": 6,
+              "prompt": "6. dacr - Write the word and its matching picture letter (a-f).",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-2-q5.webp",
+              "options": [],
+              "answers": [
+                "card f",
+                "card, f",
+                "card-f"
+              ],
+              "explanation": "Đáp án là “card f”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Complete.",
+          "wordBank": [
+            "likes",
+            "doesn't like"
+          ],
+          "reference": null,
+          "items": [
+            {
+              "id": "u07e3q1",
+              "order": 9,
+              "unit": 7,
+              "sourceNumber": 2,
+              "prompt": "2. He _____ sweets.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-3-q1.webp",
+              "options": [],
+              "answers": [
+                "doesn't like"
+              ],
+              "explanation": "Đáp án là “doesn't like”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e3q2",
+              "order": 10,
+              "unit": 7,
+              "sourceNumber": 3,
+              "prompt": "3. Mary _____ bananas.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-3-q2.webp",
+              "options": [],
+              "answers": [
+                "doesn't like"
+              ],
+              "explanation": "Đáp án là “doesn't like”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e3q3",
+              "order": 11,
+              "unit": 7,
+              "sourceNumber": 4,
+              "prompt": "4. She _____ chocolate.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-7-3-q3.webp",
+              "options": [],
+              "answers": [
+                "likes"
+              ],
+              "explanation": "Đáp án là “likes”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Underline the correct word.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u07e4q1",
+              "order": 12,
+              "unit": 7,
+              "sourceNumber": 2,
+              "prompt": "2. What does I / they / he like?",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "I",
+                "they",
+                "he"
+              ],
+              "answers": [
+                "he"
+              ],
+              "explanation": "Đáp án là “he”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e4q2",
+              "order": 13,
+              "unit": 7,
+              "sourceNumber": 3,
+              "prompt": "3. He like / likes / doesn't chocolate.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "like",
+                "likes",
+                "doesn't"
+              ],
+              "answers": [
+                "likes"
+              ],
+              "explanation": "Đáp án là “likes”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e4q3",
+              "order": 14,
+              "unit": 7,
+              "sourceNumber": 4,
+              "prompt": "4. What do / does / don't she like?",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "do",
+                "does",
+                "don't"
+              ],
+              "answers": [
+                "does"
+              ],
+              "explanation": "Đáp án là “does”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u07e4q4",
+              "order": 15,
+              "unit": 7,
+              "sourceNumber": 5,
+              "prompt": "5. She don't / hasn't / doesn't like nuts.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "don't",
+                "hasn't",
+                "doesn't"
+              ],
+              "answers": [
+                "doesn't"
+              ],
+              "explanation": "Đáp án là “doesn't”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "Family and Friends 2",
+      "short": "FF2",
+      "unit": 8,
+      "total": 15,
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Look and write the words in the correct circle.",
+          "wordBank": [
+            "bed",
+            "home",
+            "dinner",
+            "breakfast"
+          ],
+          "reference": null,
+          "items": [
+            {
+              "id": "u08e1q1",
+              "order": 1,
+              "unit": 8,
+              "sourceNumber": 2,
+              "prompt": "2. Complete the 'go' group: go _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "to bed"
+              ],
+              "explanation": "Đáp án là “to bed”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e1q2",
+              "order": 2,
+              "unit": 8,
+              "sourceNumber": 3,
+              "prompt": "3. Complete the 'go' group: go _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "home"
+              ],
+              "explanation": "Đáp án là “home”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e1q3",
+              "order": 3,
+              "unit": 8,
+              "sourceNumber": 4,
+              "prompt": "4. Complete the 'have' group: have _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "dinner"
+              ],
+              "explanation": "Đáp án là “dinner”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e1q4",
+              "order": 4,
+              "unit": 8,
+              "sourceNumber": 5,
+              "prompt": "5. Complete the 'have' group: have _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "breakfast"
+              ],
+              "explanation": "Đáp án là “breakfast”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Label.",
+          "wordBank": [
+            "evening",
+            "night",
+            "afternoon"
+          ],
+          "reference": null,
+          "items": [
+            {
+              "id": "u08e2q1",
+              "order": 5,
+              "unit": 8,
+              "sourceNumber": 2,
+              "prompt": "2. a _ _ _ _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-2-q1.webp",
+              "options": [],
+              "answers": [
+                "afternoon"
+              ],
+              "explanation": "Đáp án là “afternoon”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e2q2",
+              "order": 6,
+              "unit": 8,
+              "sourceNumber": 3,
+              "prompt": "3. n _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-2-q2.webp",
+              "options": [],
+              "answers": [
+                "night"
+              ],
+              "explanation": "Đáp án là “night”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e2q3",
+              "order": 7,
+              "unit": 8,
+              "sourceNumber": 4,
+              "prompt": "4. e _ _ _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-2-q3.webp",
+              "options": [],
+              "answers": [
+                "evening"
+              ],
+              "explanation": "Đáp án là “evening”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Write the times.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u08e3q1",
+              "order": 8,
+              "unit": 8,
+              "sourceNumber": 2,
+              "prompt": "2. Write the time.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-3-q1.webp",
+              "options": [],
+              "answers": [
+                "twelve o'clock",
+                "It's twelve o'clock"
+              ],
+              "explanation": "Đáp án là “twelve o'clock”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e3q2",
+              "order": 9,
+              "unit": 8,
+              "sourceNumber": 3,
+              "prompt": "3. Write the time.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-3-q2.webp",
+              "options": [],
+              "answers": [
+                "three o'clock",
+                "It's three o'clock"
+              ],
+              "explanation": "Đáp án là “three o'clock”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e3q3",
+              "order": 10,
+              "unit": 8,
+              "sourceNumber": 4,
+              "prompt": "4. Write the time.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-3-q3.webp",
+              "options": [],
+              "answers": [
+                "ten o'clock",
+                "It's ten o'clock"
+              ],
+              "explanation": "Đáp án là “ten o'clock”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Complete.",
+          "wordBank": [
+            "has",
+            "go",
+            "goes",
+            "gets up",
+            "have"
+          ],
+          "reference": null,
+          "items": [
+            {
+              "id": "u08e4q1",
+              "order": 11,
+              "unit": 8,
+              "sourceNumber": 2,
+              "prompt": "2. My dad _____ at six o'clock.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-4-q1.webp",
+              "options": [],
+              "answers": [
+                "gets up"
+              ],
+              "explanation": "Đáp án là “gets up”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e4q2",
+              "order": 12,
+              "unit": 8,
+              "sourceNumber": 3,
+              "prompt": "3. Sarah _____ to school at nine o'clock.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-4-q2.webp",
+              "options": [],
+              "answers": [
+                "goes"
+              ],
+              "explanation": "Đáp án là “goes”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e4q3",
+              "order": 13,
+              "unit": 8,
+              "sourceNumber": 4,
+              "prompt": "4. Sarah _____ dinner at seven o'clock.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-4-q3.webp",
+              "options": [],
+              "answers": [
+                "has"
+              ],
+              "explanation": "Đáp án là “has”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e4q4",
+              "order": 14,
+              "unit": 8,
+              "sourceNumber": 5,
+              "prompt": "5. I _____ home at four o'clock.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-4-q4.webp",
+              "options": [],
+              "answers": [
+                "go"
+              ],
+              "explanation": "Đáp án là “go”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u08e4q5",
+              "order": 15,
+              "unit": 8,
+              "sourceNumber": 6,
+              "prompt": "6. I _____ dinner at six o'clock.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-8-4-q5.webp",
+              "options": [],
+              "answers": [
+                "have"
+              ],
+              "explanation": "Đáp án là “have”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "Family and Friends 2",
+      "short": "FF2",
+      "unit": 9,
+      "total": 15,
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Complete the words.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u09e1q1",
+              "order": 1,
+              "unit": 9,
+              "sourceNumber": 2,
+              "prompt": "2. z _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-1-q1.webp",
+              "options": [],
+              "answers": [
+                "zoo"
+              ],
+              "explanation": "Đáp án là “zoo”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e1q2",
+              "order": 2,
+              "unit": 9,
+              "sourceNumber": 3,
+              "prompt": "3. s _ _ _ _ _ _ _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-1-q2.webp",
+              "options": [],
+              "answers": [
+                "supermarket"
+              ],
+              "explanation": "Đáp án là “supermarket”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e1q3",
+              "order": 3,
+              "unit": 9,
+              "sourceNumber": 4,
+              "prompt": "4. h _ _ _ _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-1-q3.webp",
+              "options": [],
+              "answers": [
+                "hospital"
+              ],
+              "explanation": "Đáp án là “hospital”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e1q4",
+              "order": 4,
+              "unit": 9,
+              "sourceNumber": 5,
+              "prompt": "5. s _ _ _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-1-q4.webp",
+              "options": [],
+              "answers": [
+                "station"
+              ],
+              "explanation": "Đáp án là “station”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e1q5",
+              "order": 5,
+              "unit": 9,
+              "sourceNumber": 6,
+              "prompt": "6. s _ _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-1-q5.webp",
+              "options": [],
+              "answers": [
+                "school"
+              ],
+              "explanation": "Đáp án là “school”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Circle the correct word.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u09e2q1",
+              "order": 6,
+              "unit": 9,
+              "sourceNumber": 2,
+              "prompt": "2. He works in a police station / hospital.",
+              "type": "choice",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-2-q1.webp",
+              "options": [
+                "police station",
+                "hospital"
+              ],
+              "answers": [
+                "police station"
+              ],
+              "explanation": "Đáp án là “police station”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e2q2",
+              "order": 7,
+              "unit": 9,
+              "sourceNumber": 3,
+              "prompt": "3. She works in a bank / station.",
+              "type": "choice",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-2-q2.webp",
+              "options": [
+                "bank",
+                "station"
+              ],
+              "answers": [
+                "bank"
+              ],
+              "explanation": "Đáp án là “bank”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e2q3",
+              "order": 8,
+              "unit": 9,
+              "sourceNumber": 4,
+              "prompt": "4. He works in a school / fire station.",
+              "type": "choice",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-2-q3.webp",
+              "options": [
+                "school",
+                "fire station"
+              ],
+              "answers": [
+                "fire station"
+              ],
+              "explanation": "Đáp án là “fire station”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Look and complete.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u09e3q1",
+              "order": 9,
+              "unit": 9,
+              "sourceNumber": 2,
+              "prompt": "2. _____ in a school.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-3-q1.webp",
+              "options": [],
+              "answers": [
+                "She works"
+              ],
+              "explanation": "Đáp án là “She works”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e3q2",
+              "order": 10,
+              "unit": 9,
+              "sourceNumber": 3,
+              "prompt": "3. _____ at the airport.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-3-q2.webp",
+              "options": [],
+              "answers": [
+                "He works"
+              ],
+              "explanation": "Đáp án là “He works”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e3q3",
+              "order": 11,
+              "unit": 9,
+              "sourceNumber": 4,
+              "prompt": "4. _____ in a hospital.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-9-3-q3.webp",
+              "options": [],
+              "answers": [
+                "She works"
+              ],
+              "explanation": "Đáp án là “She works”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Complete the sentences.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u09e4q1",
+              "order": 12,
+              "unit": 9,
+              "sourceNumber": 2,
+              "prompt": "2. He _____ in a bank.",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "works",
+                "He works"
+              ],
+              "explanation": "Đáp án là “works”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e4q2",
+              "order": 13,
+              "unit": 9,
+              "sourceNumber": 3,
+              "prompt": "3. _____ your mum work in a zoo?",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "Does"
+              ],
+              "explanation": "Đáp án là “Does”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e4q3",
+              "order": 14,
+              "unit": 9,
+              "sourceNumber": 4,
+              "prompt": "4. No, she _____.",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "doesn't"
+              ],
+              "explanation": "Đáp án là “doesn't”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u09e4q4",
+              "order": 15,
+              "unit": 9,
+              "sourceNumber": 5,
+              "prompt": "5. _____, he does.",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "Yes"
+              ],
+              "explanation": "Đáp án là Yes. Con cần nhìn đúng chi tiết trong hình rồi mới chọn Yes hoặc No."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

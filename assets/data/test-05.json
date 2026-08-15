@@ -1,0 +1,961 @@
+{
+  "book": "Family and Friends 2",
+  "short": "FF2",
+  "test": 5,
+  "startUnit": 13,
+  "endUnit": 15,
+  "assignmentCode": "FF2-TEST05",
+  "intro": "Con đọc kỹ từng yêu cầu, chọn hoặc viết câu trả lời trực tiếp trên trang. Đáp án và giải thích tiếng Việt chỉ xuất hiện sau khi con hoàn thành toàn bộ bài.",
+  "total": 45,
+  "classes": [
+    "KIDS 7",
+    "KIDS 8",
+    "KIDS 10",
+    "KIDS 11",
+    "KIDS 14",
+    "KIDS 15",
+    "KIDS 17",
+    "KIDS 18",
+    "KIDS 19",
+    "KIDS 20",
+    "KIDS 21",
+    "KIDS 22",
+    "KIDS 23",
+    "KIDS 25",
+    "KIDS 26",
+    "KIDS 27",
+    "KIDS 28",
+    "KIDS 29",
+    "KIDS 30",
+    "KIDS 31",
+    "KIDS 32",
+    "KIDS 33",
+    "KIDS 34",
+    "KIDS 35",
+    "KIDS 36",
+    "KIDS 37",
+    "KIDS 38"
+  ],
+  "form": {
+    "endpoint": "https://docs.google.com/forms/u/0/d/e/1FAIpQLScm5maJLUzmM1lw-sTx5NG2A8BUONdWKhhEGoqfRRlsjTxOKA/formResponse",
+    "fields": {
+      "name": "entry.626306593",
+      "className": "entry.1998956975",
+      "assignmentCode": "entry.144780084",
+      "score": "entry.1804999547",
+      "total": "entry.1191306277",
+      "percent": "entry.567316915"
+    }
+  },
+  "pdf": "assets/pdf/test-05.pdf",
+  "units": [
+    {
+      "book": "Family and Friends 2",
+      "short": "FF2",
+      "unit": 13,
+      "total": 15,
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Complete the puzzle.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u13e1q1",
+              "order": 1,
+              "unit": 13,
+              "sourceNumber": 2,
+              "prompt": "2. Write the animal word.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-1-q1.webp",
+              "options": [],
+              "answers": [
+                "horse"
+              ],
+              "explanation": "Đáp án là “horse”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e1q2",
+              "order": 2,
+              "unit": 13,
+              "sourceNumber": 3,
+              "prompt": "3. Write the animal word.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-1-q2.webp",
+              "options": [],
+              "answers": [
+                "cow"
+              ],
+              "explanation": "Đáp án là “cow”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e1q3",
+              "order": 3,
+              "unit": 13,
+              "sourceNumber": 4,
+              "prompt": "4. Write the animal word.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-1-q3.webp",
+              "options": [],
+              "answers": [
+                "goat"
+              ],
+              "explanation": "Đáp án là “goat”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e1q4",
+              "order": 4,
+              "unit": 13,
+              "sourceNumber": 5,
+              "prompt": "5. Write the animal word.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-1-q4.webp",
+              "options": [],
+              "answers": [
+                "sheep"
+              ],
+              "explanation": "Đáp án là “sheep”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e1q5",
+              "order": 5,
+              "unit": 13,
+              "sourceNumber": 6,
+              "prompt": "6. Write the animal word.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-1-q5.webp",
+              "options": [],
+              "answers": [
+                "goose"
+              ],
+              "explanation": "Đáp án là “goose”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Write the opposites.",
+          "wordBank": [
+            "quiet",
+            "short",
+            "slow",
+            "sad",
+            "small"
+          ],
+          "reference": null,
+          "items": [
+            {
+              "id": "u13e2q1",
+              "order": 6,
+              "unit": 13,
+              "sourceNumber": 2,
+              "prompt": "2. loud / _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "quiet"
+              ],
+              "explanation": "Đáp án là “quiet”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e2q2",
+              "order": 7,
+              "unit": 13,
+              "sourceNumber": 3,
+              "prompt": "3. fast / _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "slow"
+              ],
+              "explanation": "Đáp án là “slow”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e2q3",
+              "order": 8,
+              "unit": 13,
+              "sourceNumber": 4,
+              "prompt": "4. happy / _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "sad"
+              ],
+              "explanation": "Đáp án là “sad”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e2q4",
+              "order": 9,
+              "unit": 13,
+              "sourceNumber": 5,
+              "prompt": "5. big / _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "small"
+              ],
+              "explanation": "Đáp án là “small”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e2q5",
+              "order": 10,
+              "unit": 13,
+              "sourceNumber": 6,
+              "prompt": "6. tall / _____",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "short"
+              ],
+              "explanation": "Đáp án là “short”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Look and complete.",
+          "wordBank": [
+            "bigger",
+            "slower",
+            "faster",
+            "shorter",
+            "taller",
+            "smaller"
+          ],
+          "reference": null,
+          "items": [
+            {
+              "id": "u13e3q1",
+              "order": 11,
+              "unit": 13,
+              "sourceNumber": 2,
+              "prompt": "2. Sally is _____ than Jo.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-3-q1.webp",
+              "options": [],
+              "answers": [
+                "taller"
+              ],
+              "explanation": "Đáp án là “taller”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e3q2",
+              "order": 12,
+              "unit": 13,
+              "sourceNumber": 3,
+              "prompt": "3. This car is _____ than that bike.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-3-q2.webp",
+              "options": [],
+              "answers": [
+                "faster"
+              ],
+              "explanation": "Đáp án là “faster”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e3q3",
+              "order": 13,
+              "unit": 13,
+              "sourceNumber": 4,
+              "prompt": "4. The rubber is _____ than the pencil case.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-3-q3.webp",
+              "options": [],
+              "answers": [
+                "smaller"
+              ],
+              "explanation": "Đáp án là “smaller”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e3q4",
+              "order": 14,
+              "unit": 13,
+              "sourceNumber": 5,
+              "prompt": "5. The goat is _____ than the horse.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-3-q4.webp",
+              "options": [],
+              "answers": [
+                "slower"
+              ],
+              "explanation": "Đáp án là “slower”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u13e3q5",
+              "order": 15,
+              "unit": 13,
+              "sourceNumber": 6,
+              "prompt": "6. Dan is _____ than Luke.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-13-3-q5.webp",
+              "options": [],
+              "answers": [
+                "shorter"
+              ],
+              "explanation": "Đáp án là “shorter”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "Family and Friends 2",
+      "short": "FF2",
+      "unit": 14,
+      "total": 15,
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Match.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u14e1q1",
+              "order": 1,
+              "unit": 14,
+              "sourceNumber": 2,
+              "prompt": "2. untidy",
+              "type": "choice",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-1-q1.webp",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e"
+              ],
+              "answers": [
+                "b"
+              ],
+              "explanation": "Chọn phương án B. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+            },
+            {
+              "id": "u14e1q2",
+              "order": 2,
+              "unit": 14,
+              "sourceNumber": 3,
+              "prompt": "3. wet",
+              "type": "choice",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-1-q2.webp",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e"
+              ],
+              "answers": [
+                "c"
+              ],
+              "explanation": "Chọn phương án C. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+            },
+            {
+              "id": "u14e1q3",
+              "order": 3,
+              "unit": 14,
+              "sourceNumber": 4,
+              "prompt": "4. naughty",
+              "type": "choice",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-1-q3.webp",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e"
+              ],
+              "answers": [
+                "e"
+              ],
+              "explanation": "Chọn phương án E. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+            },
+            {
+              "id": "u14e1q4",
+              "order": 4,
+              "unit": 14,
+              "sourceNumber": 5,
+              "prompt": "5. tidy",
+              "type": "choice",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-1-q4.webp",
+              "options": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "e"
+              ],
+              "answers": [
+                "a"
+              ],
+              "explanation": "Chọn phương án A. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Complete.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u14e2q1",
+              "order": 5,
+              "unit": 14,
+              "sourceNumber": 2,
+              "prompt": "2. r _ _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-2-q1.webp",
+              "options": [],
+              "answers": [
+                "rubbish"
+              ],
+              "explanation": "Đáp án là “rubbish”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u14e2q2",
+              "order": 6,
+              "unit": 14,
+              "sourceNumber": 3,
+              "prompt": "3. p _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-2-q2.webp",
+              "options": [],
+              "answers": [
+                "photo"
+              ],
+              "explanation": "Đáp án là “photo”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u14e2q3",
+              "order": 7,
+              "unit": 14,
+              "sourceNumber": 4,
+              "prompt": "4. f _ _ _ _ _",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-2-q3.webp",
+              "options": [],
+              "answers": [
+                "fridge"
+              ],
+              "explanation": "Đáp án là “fridge”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Complete.",
+          "wordBank": [
+            "was",
+            "were"
+          ],
+          "reference": null,
+          "items": [
+            {
+              "id": "u14e3q1",
+              "order": 8,
+              "unit": 14,
+              "sourceNumber": 2,
+              "prompt": "2. Jay _____ wet.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-3-q1.webp",
+              "options": [],
+              "answers": [
+                "was"
+              ],
+              "explanation": "Đáp án là “was”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+            },
+            {
+              "id": "u14e3q2",
+              "order": 9,
+              "unit": 14,
+              "sourceNumber": 3,
+              "prompt": "3. Beth and Celia _____ very cold.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-3-q2.webp",
+              "options": [],
+              "answers": [
+                "were"
+              ],
+              "explanation": "Đáp án là “were”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+            },
+            {
+              "id": "u14e3q3",
+              "order": 10,
+              "unit": 14,
+              "sourceNumber": 4,
+              "prompt": "4. The ducks _____ happy.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-3-q3.webp",
+              "options": [],
+              "answers": [
+                "were"
+              ],
+              "explanation": "Đáp án là “were”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+            },
+            {
+              "id": "u14e3q4",
+              "order": 11,
+              "unit": 14,
+              "sourceNumber": 5,
+              "prompt": "5. Mum _____ angry!",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-14-3-q4.webp",
+              "options": [],
+              "answers": [
+                "was"
+              ],
+              "explanation": "Đáp án là “was”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Underline the correct word.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u14e4q1",
+              "order": 12,
+              "unit": 14,
+              "sourceNumber": 2,
+              "prompt": "2. You wasn't / weren't naughty.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "wasn't",
+                "weren't"
+              ],
+              "answers": [
+                "weren't"
+              ],
+              "explanation": "Đáp án là “weren't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+            },
+            {
+              "id": "u14e4q2",
+              "order": 13,
+              "unit": 14,
+              "sourceNumber": 3,
+              "prompt": "3. They wasn't / weren't wet.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "wasn't",
+                "weren't"
+              ],
+              "answers": [
+                "weren't"
+              ],
+              "explanation": "Đáp án là “weren't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+            },
+            {
+              "id": "u14e4q3",
+              "order": 14,
+              "unit": 14,
+              "sourceNumber": 4,
+              "prompt": "4. He wasn't / weren't cold.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "wasn't",
+                "weren't"
+              ],
+              "answers": [
+                "wasn't"
+              ],
+              "explanation": "Đáp án là “wasn't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+            },
+            {
+              "id": "u14e4q4",
+              "order": 15,
+              "unit": 14,
+              "sourceNumber": 5,
+              "prompt": "5. We wasn't / weren't scared.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "wasn't",
+                "weren't"
+              ],
+              "answers": [
+                "weren't"
+              ],
+              "explanation": "Đáp án là “weren't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "Family and Friends 2",
+      "short": "FF2",
+      "unit": 15,
+      "total": 15,
+      "exercises": [
+        {
+          "number": 1,
+          "title": "Circle the correct word.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u15e1q1",
+              "order": 1,
+              "unit": 15,
+              "sourceNumber": 2,
+              "prompt": "2. There were three child / children.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "child",
+                "children"
+              ],
+              "answers": [
+                "children"
+              ],
+              "explanation": "Đáp án là “children”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u15e1q2",
+              "order": 2,
+              "unit": 15,
+              "sourceNumber": 3,
+              "prompt": "3. There were four teddy / teddies.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "teddy",
+                "teddies"
+              ],
+              "answers": [
+                "teddies"
+              ],
+              "explanation": "Đáp án là “teddies”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u15e1q3",
+              "order": 3,
+              "unit": 15,
+              "sourceNumber": 4,
+              "prompt": "4. There was one man / men.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "man",
+                "men"
+              ],
+              "answers": [
+                "man"
+              ],
+              "explanation": "Đáp án là “man”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u15e1q4",
+              "order": 4,
+              "unit": 15,
+              "sourceNumber": 5,
+              "prompt": "5. There were four woman / women.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "woman",
+                "women"
+              ],
+              "answers": [
+                "women"
+              ],
+              "explanation": "Đáp án là “women”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u15e1q5",
+              "order": 5,
+              "unit": 15,
+              "sourceNumber": 6,
+              "prompt": "6. There was one duck / ducks.",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                "duck",
+                "ducks"
+              ],
+              "answers": [
+                "duck"
+              ],
+              "explanation": "Đáp án là “duck”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "title": "Complete.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u15e2q1",
+              "order": 6,
+              "unit": 15,
+              "sourceNumber": 2,
+              "prompt": "2. Jim was _____.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-15-2-q1.webp",
+              "options": [],
+              "answers": [
+                "fourth"
+              ],
+              "explanation": "Đáp án là “fourth”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u15e2q2",
+              "order": 7,
+              "unit": 15,
+              "sourceNumber": 3,
+              "prompt": "3. Charlie was _____.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-15-2-q2.webp",
+              "options": [],
+              "answers": [
+                "first"
+              ],
+              "explanation": "Đáp án là “first”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            },
+            {
+              "id": "u15e2q3",
+              "order": 8,
+              "unit": 15,
+              "sourceNumber": 4,
+              "prompt": "4. Ellie was _____.",
+              "type": "input",
+              "kind": "picture",
+              "visual": "assets/items/ff2-15-2-q3.webp",
+              "options": [],
+              "answers": [
+                "third"
+              ],
+              "explanation": "Đáp án là “third”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "title": "Complete.",
+          "wordBank": [
+            "some",
+            "any"
+          ],
+          "reference": null,
+          "items": [
+            {
+              "id": "u15e3q1",
+              "order": 9,
+              "unit": 15,
+              "sourceNumber": 2,
+              "prompt": "2. There weren't _____ men.",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "any"
+              ],
+              "explanation": "Đáp án là “any”. Con dựa vào câu khẳng định hoặc phủ định và danh từ phía sau để chọn."
+            },
+            {
+              "id": "u15e3q2",
+              "order": 10,
+              "unit": 15,
+              "sourceNumber": 3,
+              "prompt": "3. There were _____ ducks.",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "some"
+              ],
+              "explanation": "Đáp án là “some”. Con dựa vào câu khẳng định hoặc phủ định và danh từ phía sau để chọn."
+            },
+            {
+              "id": "u15e3q3",
+              "order": 11,
+              "unit": 15,
+              "sourceNumber": 4,
+              "prompt": "4. There weren't _____ boys at the park.",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "any"
+              ],
+              "explanation": "Đáp án là “any”. Con dựa vào câu khẳng định hoặc phủ định và danh từ phía sau để chọn."
+            },
+            {
+              "id": "u15e3q4",
+              "order": 12,
+              "unit": 15,
+              "sourceNumber": 5,
+              "prompt": "5. There were _____ girls flying a big kite.",
+              "type": "input",
+              "kind": "standard",
+              "visual": null,
+              "options": [],
+              "answers": [
+                "some"
+              ],
+              "explanation": "Đáp án là “some”. Con dựa vào câu khẳng định hoặc phủ định và danh từ phía sau để chọn."
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "title": "Match.",
+          "wordBank": null,
+          "reference": null,
+          "items": [
+            {
+              "id": "u15e4q1",
+              "order": 13,
+              "unit": 15,
+              "sourceNumber": 2,
+              "prompt": "2. How many horses",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                {
+                  "value": "a",
+                  "label": "a. any goats"
+                },
+                {
+                  "value": "b",
+                  "label": "b. donkeys"
+                },
+                {
+                  "value": "c",
+                  "label": "c. some ducks"
+                },
+                {
+                  "value": "d",
+                  "label": "d. were there?"
+                }
+              ],
+              "answers": [
+                "d"
+              ],
+              "explanation": "Chọn phương án D. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+            },
+            {
+              "id": "u15e4q2",
+              "order": 14,
+              "unit": 15,
+              "sourceNumber": 3,
+              "prompt": "3. There weren't",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                {
+                  "value": "a",
+                  "label": "a. any goats"
+                },
+                {
+                  "value": "b",
+                  "label": "b. donkeys"
+                },
+                {
+                  "value": "c",
+                  "label": "c. some ducks"
+                },
+                {
+                  "value": "d",
+                  "label": "d. were there?"
+                }
+              ],
+              "answers": [
+                "a"
+              ],
+              "explanation": "Chọn phương án A. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+            },
+            {
+              "id": "u15e4q3",
+              "order": 15,
+              "unit": 15,
+              "sourceNumber": 4,
+              "prompt": "4. There were three",
+              "type": "choice",
+              "kind": "standard",
+              "visual": null,
+              "options": [
+                {
+                  "value": "a",
+                  "label": "a. any goats"
+                },
+                {
+                  "value": "b",
+                  "label": "b. donkeys"
+                },
+                {
+                  "value": "c",
+                  "label": "c. some ducks"
+                },
+                {
+                  "value": "d",
+                  "label": "d. were there?"
+                }
+              ],
+              "answers": [
+                "b"
+              ],
+              "explanation": "Chọn phương án B. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
