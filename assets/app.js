@@ -33,7 +33,10 @@ cfg.units.forEach(unit=>{
     const reference=exercise.reference
       ? '<details class="source-reference" open><summary>Hình và yêu cầu của phần '+exercise.number+'</summary><div><img loading="lazy" src="../'+exercise.reference+'" alt="Unit '+unit.unit+', phần '+exercise.number+' của đề gốc"><p>Con quan sát hình và đọc đúng yêu cầu, sau đó làm từng câu ngay bên dưới.</p></div></details>'
       : '';
-    section.innerHTML='<header><span>'+exercise.number+'</span><div><small>UNIT '+unit.unit+' · PHẦN '+exercise.number+'</small><h2>'+escapeHtml(exercise.title)+'</h2></div><b>/'+exercise.items.length+'</b></header>'+reference+
+    const wordBank=exercise.wordBank?.length
+      ? '<div class="word-bank"><b>Word bank</b>'+exercise.wordBank.map(word=>'<span>'+escapeHtml(word)+'</span>').join('')+'</div>'
+      : '';
+    section.innerHTML='<header><span>'+exercise.number+'</span><div><small>UNIT '+unit.unit+' · PHẦN '+exercise.number+'</small><h2>'+escapeHtml(exercise.title)+'</h2></div><b>/'+exercise.items.length+'</b></header>'+wordBank+reference+
       '<div class="items">'+exercise.items.map(item=>renderItem(item)).join('')+'</div>';
     unitRoot.appendChild(section);
   });
@@ -42,10 +45,10 @@ cfg.units.forEach(unit=>{
 
 function renderItem(item){
   const control=item.type==='choice'
-    ? '<div class="choices">'+item.options.map((option,index)=>'<button type="button" data-value="'+escapeHtml(option)+'" aria-pressed="false"><span>'+String.fromCharCode(65+index)+'</span><b>'+escapeHtml(option)+'</b></button>').join('')+'</div>'
-    : '<input autocomplete="off" spellcheck="false" placeholder="'+(item.kind==='spelling'?'Nhập từ hoàn chỉnh':'Nhập câu trả lời')+'">';
+    ? '<div class="choices">'+item.options.map((option,index)=>{const value=typeof option==='object'?option.value:option;const label=typeof option==='object'?option.label:option;return '<button type="button" data-value="'+escapeHtml(value)+'" aria-pressed="false"><span>'+String.fromCharCode(65+index)+'</span><b>'+escapeHtml(label)+'</b></button>'}).join('')+'</div>'
+    : '<input autocomplete="off" spellcheck="false" placeholder="Nhập câu trả lời">';
   const body=item.visual
-    ? '<div class="spelling-task"><div class="spelling-picture"><img loading="lazy" src="../'+item.visual+'" alt="Hình gợi ý cho câu '+item.sourceNumber+'"></div><div class="spelling-answer"><p>'+escapeHtml(item.prompt)+'</p>'+control+'</div></div>'
+    ? '<div class="picture-task"><div class="question-picture"><img loading="lazy" src="../'+item.visual+'" alt="Hình cho câu '+item.sourceNumber+'"></div><div class="picture-answer"><p>'+escapeHtml(item.prompt)+'</p>'+control+'</div></div>'
     : '<p>'+escapeHtml(item.prompt)+'</p>'+control;
   return '<article class="item '+(item.visual?'picture-item':'')+'" data-id="'+item.id+'"><span class="item-number">'+item.sourceNumber+'</span><div class="item-body">'+body+'</div></article>';
 }
