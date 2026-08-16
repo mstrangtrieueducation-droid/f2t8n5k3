@@ -74,7 +74,7 @@
               "answers": [
                 "fries"
               ],
-              "explanation": "Đáp án là “fries”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“fries” nghĩa là “khoai tây chiên”. Đây là hình khác nhóm so với các hình còn lại, nên con viết “fries”."
             },
             {
               "id": "u04e1q2",
@@ -89,7 +89,7 @@
               "answers": [
                 "chicken"
               ],
-              "explanation": "Đáp án là “chicken”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“chicken” nghĩa là “thịt gà”. Đây là hình khác nhóm so với các hình còn lại, nên con viết “chicken”."
             },
             {
               "id": "u04e1q3",
@@ -104,7 +104,7 @@
               "answers": [
                 "milkshake"
               ],
-              "explanation": "Đáp án là “milkshake”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“milkshake” nghĩa là “sữa lắc”. Đây là hình khác nhóm so với các hình còn lại, nên con viết “milkshake”."
             }
           ]
         },
@@ -148,7 +148,7 @@
               "answers": [
                 "d"
               ],
-              "explanation": "Chọn phương án D. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “70” với “seventy” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án D."
             },
             {
               "id": "u04e2q2",
@@ -184,7 +184,7 @@
               "answers": [
                 "a"
               ],
-              "explanation": "Chọn phương án A. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “40” với “forty” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án A."
             },
             {
               "id": "u04e2q3",
@@ -220,7 +220,7 @@
               "answers": [
                 "e"
               ],
-              "explanation": "Chọn phương án E. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “90” với “ninety” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án E."
             },
             {
               "id": "u04e2q4",
@@ -256,7 +256,7 @@
               "answers": [
                 "b"
               ],
-              "explanation": "Chọn phương án B. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “20” với “twenty” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án B."
             }
           ]
         },
@@ -283,7 +283,7 @@
               "answers": [
                 "haven't"
               ],
-              "explanation": "Đáp án là “haven't”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Chủ ngữ I/you/we/they đi với have. Câu hỏi và câu trả lời phải dùng cùng trợ động từ, nên điền “haven't”."
             },
             {
               "id": "u04e3q2",
@@ -302,7 +302,7 @@
               "answers": [
                 "Has"
               ],
-              "explanation": "Đáp án là “Has”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Chủ ngữ he/she hoặc tên một người đi với has. Câu hỏi và câu trả lời phải dùng cùng trợ động từ, nên điền “Has”."
             },
             {
               "id": "u04e3q3",
@@ -321,7 +321,7 @@
               "answers": [
                 "has"
               ],
-              "explanation": "Đáp án là “has”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Chủ ngữ he/she hoặc tên một người đi với has. Câu hỏi và câu trả lời phải dùng cùng trợ động từ, nên điền “has”."
             },
             {
               "id": "u04e3q4",
@@ -340,7 +340,7 @@
               "answers": [
                 "Have"
               ],
-              "explanation": "Đáp án là “Have”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Chủ ngữ I/you/we/they đi với have. Câu hỏi và câu trả lời phải dùng cùng trợ động từ, nên điền “Have”."
             },
             {
               "id": "u04e3q5",
@@ -359,7 +359,7 @@
               "answers": [
                 "have"
               ],
-              "explanation": "Đáp án là “have”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Chủ ngữ I/you/we/they đi với have. Câu hỏi và câu trả lời phải dùng cùng trợ động từ, nên điền “have”."
             }
           ]
         },
@@ -387,7 +387,7 @@
               "answers": [
                 "Yes"
               ],
-              "explanation": "Đáp án là Yes. Con cần nhìn đúng chi tiết trong hình rồi mới chọn Yes hoặc No."
+              "explanation": "Từ hoặc câu trong đề đúng với hình, nên con chọn “Yes”. Con nhìn lại đúng chi tiết được nêu trong câu “_____, I have”."
             },
             {
               "id": "u04e4q2",
@@ -402,7 +402,7 @@
               "answers": [
                 "got"
               ],
-              "explanation": "Đáp án là “got”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Chủ ngữ he/she hoặc tên một người đi với has. Câu hỏi và câu trả lời phải dùng cùng trợ động từ, nên điền “got”."
             },
             {
               "id": "u04e4q3",
@@ -417,7 +417,7 @@
               "answers": [
                 "hasn't"
               ],
-              "explanation": "Đáp án là “hasn't”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Chủ ngữ he/she hoặc tên một người đi với has. Câu hỏi và câu trả lời phải dùng cùng trợ động từ, nên điền “hasn't”."
             }
           ]
         }
@@ -448,7 +448,7 @@
               "answers": [
                 "English"
               ],
-              "explanation": "Đáp án là “English”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“English” nghĩa là “môn Tiếng Anh”. Mẫu “E _ _ _ _ _ _” còn thiếu n-g-l-i-s-h; điền đúng sẽ được E-n-g-l-i-s-h."
             },
             {
               "id": "u05e1q2",
@@ -463,7 +463,7 @@
               "answers": [
                 "science"
               ],
-              "explanation": "Đáp án là “science”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“science” nghĩa là “môn Khoa học”. Mẫu “s _ _ _ _ _ _” còn thiếu c-i-e-n-c-e; điền đúng sẽ được s-c-i-e-n-c-e."
             },
             {
               "id": "u05e1q3",
@@ -478,7 +478,7 @@
               "answers": [
                 "art"
               ],
-              "explanation": "Đáp án là “art”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“art” nghĩa là “môn Mỹ thuật”. Mẫu “a _ _” còn thiếu r-t; điền đúng sẽ được a-r-t."
             },
             {
               "id": "u05e1q4",
@@ -493,7 +493,7 @@
               "answers": [
                 "maths"
               ],
-              "explanation": "Đáp án là “maths”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“maths” nghĩa là “môn Toán”. Mẫu “m _ _ _ _” còn thiếu a-t-h-s; điền đúng sẽ được m-a-t-h-s."
             }
           ]
         },
@@ -518,7 +518,7 @@
                 "art room, a",
                 "a art room"
               ],
-              "explanation": "Câu hoàn chỉnh là “art room a”. Con đọc lại cả câu để kiểm tra ngữ pháp và trật tự từ."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “art room a” để câu “Complete a art room a t  r art room a art room a m, then write the matching picture letter (a-d)” có nghĩa."
             },
             {
               "id": "u05e2q2",
@@ -535,7 +535,7 @@
                 "computer room, d",
                 "d computer room"
               ],
-              "explanation": "Câu hoàn chỉnh là “computer room d”. Con đọc lại cả câu để kiểm tra ngữ pháp và trật tự từ."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “computer room d” để câu “Complete c computer room d computer room d p computer room d ter room, then write the matching picture letter (a-d)” có nghĩa."
             },
             {
               "id": "u05e2q3",
@@ -552,7 +552,7 @@
                 "sports field, b",
                 "b sports field"
               ],
-              "explanation": "Câu hoàn chỉnh là “sports field b”. Con đọc lại cả câu để kiểm tra ngữ pháp và trật tự từ."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “sports field b” để câu “Complete sp sports field b sports field b ts f sports field b e sports field b d, then write the matching picture letter (a-d)” có nghĩa."
             }
           ]
         },
@@ -578,7 +578,7 @@
               "answers": [
                 "their"
               ],
-              "explanation": "Đáp án là “their”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “their” để câu “These are their pencil cases” có nghĩa."
             },
             {
               "id": "u05e3q2",
@@ -593,7 +593,7 @@
               "answers": [
                 "their"
               ],
-              "explanation": "Đáp án là “their”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “their” để câu “These are their toys” có nghĩa."
             },
             {
               "id": "u05e3q3",
@@ -608,7 +608,7 @@
               "answers": [
                 "our"
               ],
-              "explanation": "Đáp án là “our”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “our” để câu “These are our sandwiches” có nghĩa."
             }
           ]
         },
@@ -656,7 +656,7 @@
               "answers": [
                 "a"
               ],
-              "explanation": "Chọn phương án A. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “Today we've got” với “music” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án A."
             },
             {
               "id": "u05e4q2",
@@ -696,7 +696,7 @@
               "answers": [
                 "e"
               ],
-              "explanation": "Chọn phương án E. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “When have we” với “got maths” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án E."
             },
             {
               "id": "u05e4q3",
@@ -736,7 +736,7 @@
               "answers": [
                 "c"
               ],
-              "explanation": "Chọn phương án C. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “We've got English” với “on Friday” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án C."
             },
             {
               "id": "u05e4q4",
@@ -776,7 +776,7 @@
               "answers": [
                 "d"
               ],
-              "explanation": "Chọn phương án D. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “What have” với “you got on Monday” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án D."
             },
             {
               "id": "u05e4q5",
@@ -816,7 +816,7 @@
               "answers": [
                 "f"
               ],
-              "explanation": "Chọn phương án F. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “I haven't” với “got art today” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án F."
             }
           ]
         }
@@ -847,7 +847,7 @@
               "answers": [
                 "watch"
               ],
-              "explanation": "Đáp án là “watch”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“watch” nghĩa là “xem”. Mẫu “w _ _ _ _ TV” còn thiếu a-c-h; điền đúng sẽ được w-a-t-c-h."
             },
             {
               "id": "u06e1q2",
@@ -862,7 +862,7 @@
               "answers": [
                 "read"
               ],
-              "explanation": "Đáp án là “read”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“read” nghĩa là “đọc”. Mẫu “r _ _ _ a book” còn thiếu e-d; điền đúng sẽ được r-e-a-d."
             },
             {
               "id": "u06e1q3",
@@ -877,7 +877,7 @@
               "answers": [
                 "play"
               ],
-              "explanation": "Đáp án là “play”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“play” nghĩa là “chơi”. Mẫu “p _ _ _ with friends” còn thiếu l-a-y; điền đúng sẽ được p-l-a-y."
             },
             {
               "id": "u06e1q4",
@@ -892,7 +892,7 @@
               "answers": [
                 "write"
               ],
-              "explanation": "Đáp án là “write”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“write” nghĩa là “viết”. Mẫu “w _ _ _ _ an email” còn thiếu r-t; điền đúng sẽ được w-r-i-t-e."
             },
             {
               "id": "u06e1q5",
@@ -907,7 +907,7 @@
               "answers": [
                 "listen"
               ],
-              "explanation": "Đáp án là “listen”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“listen” nghĩa là “nghe”. Mẫu “l _ _ _ _ _ to music” còn thiếu e-n; điền đúng sẽ được l-i-s-t-e-n."
             }
           ]
         },
@@ -947,7 +947,7 @@
               "answers": [
                 "a"
               ],
-              "explanation": "Chọn phương án A. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “go” với “swimming” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án A."
             },
             {
               "id": "u06e2q2",
@@ -979,7 +979,7 @@
               "answers": [
                 "d"
               ],
-              "explanation": "Chọn phương án D. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “have” với “a music lesson” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án D."
             },
             {
               "id": "u06e2q3",
@@ -1011,7 +1011,7 @@
               "answers": [
                 "c"
               ],
-              "explanation": "Chọn phương án C. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “do” với “my homework” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án C."
             }
           ]
         },
@@ -1034,7 +1034,7 @@
               "answers": [
                 "don't"
               ],
-              "explanation": "Đáp án là “don't”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Với I/you/we/they, câu hỏi dùng do và câu phủ định dùng don't. Vì vậy đáp án là “don't”."
             },
             {
               "id": "u06e3q2",
@@ -1049,7 +1049,7 @@
               "answers": [
                 "have"
               ],
-              "explanation": "Đáp án là “have”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Chủ ngữ I/you/we/they đi với have. Câu hỏi và câu trả lời phải dùng cùng trợ động từ, nên điền “have”."
             },
             {
               "id": "u06e3q3",
@@ -1064,7 +1064,7 @@
               "answers": [
                 "don't"
               ],
-              "explanation": "Đáp án là “don't”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Với I/you/we/they, câu hỏi dùng do và câu phủ định dùng don't. Vì vậy đáp án là “don't”."
             },
             {
               "id": "u06e3q4",
@@ -1079,7 +1079,7 @@
               "answers": [
                 "play"
               ],
-              "explanation": "Đáp án là “play”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “play” để câu “play with my friends” có nghĩa."
             },
             {
               "id": "u06e3q5",
@@ -1094,7 +1094,7 @@
               "answers": [
                 "visit"
               ],
-              "explanation": "Đáp án là “visit”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “visit” để câu “On Saturday I visit my grandma” có nghĩa."
             },
             {
               "id": "u06e3q6",
@@ -1109,7 +1109,7 @@
               "answers": [
                 "don't"
               ],
-              "explanation": "Đáp án là “don't”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Với I/you/we/they, câu hỏi dùng do và câu phủ định dùng don't. Vì vậy đáp án là “don't”."
             },
             {
               "id": "u06e3q7",
@@ -1124,7 +1124,7 @@
               "answers": [
                 "watch"
               ],
-              "explanation": "Đáp án là “watch”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“watch” nghĩa là “xem”. Mẫu “_____ TV” còn thiếu w-a-c-h; điền đúng sẽ được w-a-t-c-h."
             }
           ]
         }

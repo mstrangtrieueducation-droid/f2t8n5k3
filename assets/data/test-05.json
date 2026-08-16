@@ -74,7 +74,7 @@
               "answers": [
                 "horse"
               ],
-              "explanation": "Đáp án là “horse”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“horse” nghĩa là “con ngựa”. Hình cho thấy đúng con ngựa, nên con viết chính xác h-o-r-s-e."
             },
             {
               "id": "u13e1q2",
@@ -89,7 +89,7 @@
               "answers": [
                 "cow"
               ],
-              "explanation": "Đáp án là “cow”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“cow” nghĩa là “con bò”. Hình cho thấy đúng con bò, nên con viết chính xác c-o-w."
             },
             {
               "id": "u13e1q3",
@@ -104,7 +104,7 @@
               "answers": [
                 "goat"
               ],
-              "explanation": "Đáp án là “goat”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“goat” nghĩa là “con dê”. Hình cho thấy đúng con dê, nên con viết chính xác g-o-a-t."
             },
             {
               "id": "u13e1q4",
@@ -119,7 +119,7 @@
               "answers": [
                 "sheep"
               ],
-              "explanation": "Đáp án là “sheep”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“sheep” nghĩa là “con cừu”. Hình cho thấy đúng con cừu, nên con viết chính xác s-h-e-e-p."
             },
             {
               "id": "u13e1q5",
@@ -134,7 +134,7 @@
               "answers": [
                 "goose"
               ],
-              "explanation": "Đáp án là “goose”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“goose” nghĩa là “con ngỗng”. Hình cho thấy đúng con ngỗng, nên con viết chính xác g-o-o-s-e."
             }
           ]
         },
@@ -163,7 +163,7 @@
               "answers": [
                 "quiet"
               ],
-              "explanation": "Đáp án là “quiet”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“quiet” là từ trái nghĩa với “loud”. Vì vậy cặp đúng là loud ↔ quiet."
             },
             {
               "id": "u13e2q2",
@@ -178,7 +178,7 @@
               "answers": [
                 "slow"
               ],
-              "explanation": "Đáp án là “slow”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“slow” là từ trái nghĩa với “fast”. Vì vậy cặp đúng là fast ↔ slow."
             },
             {
               "id": "u13e2q3",
@@ -193,7 +193,7 @@
               "answers": [
                 "sad"
               ],
-              "explanation": "Đáp án là “sad”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“sad” là từ trái nghĩa với “happy”. Vì vậy cặp đúng là happy ↔ sad."
             },
             {
               "id": "u13e2q4",
@@ -208,7 +208,7 @@
               "answers": [
                 "small"
               ],
-              "explanation": "Đáp án là “small”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“small” là từ trái nghĩa với “big”. Vì vậy cặp đúng là big ↔ small."
             },
             {
               "id": "u13e2q5",
@@ -223,7 +223,7 @@
               "answers": [
                 "short"
               ],
-              "explanation": "Đáp án là “short”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“short” là từ trái nghĩa với “tall”. Vì vậy cặp đúng là tall ↔ short."
             }
           ]
         },
@@ -253,7 +253,7 @@
               "answers": [
                 "taller"
               ],
-              "explanation": "Đáp án là “taller”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Có từ “than” để so sánh hai người hoặc hai vật. Tính từ được đổi sang dạng so sánh hơn “taller” bằng cách thêm -er."
             },
             {
               "id": "u13e3q2",
@@ -268,7 +268,7 @@
               "answers": [
                 "faster"
               ],
-              "explanation": "Đáp án là “faster”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Có từ “than” để so sánh hai người hoặc hai vật. Tính từ được đổi sang dạng so sánh hơn “faster” bằng cách thêm -er."
             },
             {
               "id": "u13e3q3",
@@ -283,7 +283,7 @@
               "answers": [
                 "smaller"
               ],
-              "explanation": "Đáp án là “smaller”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Có từ “than” để so sánh hai người hoặc hai vật. Tính từ được đổi sang dạng so sánh hơn “smaller” bằng cách thêm -er."
             },
             {
               "id": "u13e3q4",
@@ -298,7 +298,7 @@
               "answers": [
                 "slower"
               ],
-              "explanation": "Đáp án là “slower”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Có từ “than” để so sánh hai người hoặc hai vật. Tính từ được đổi sang dạng so sánh hơn “slower” bằng cách thêm -er."
             },
             {
               "id": "u13e3q5",
@@ -313,7 +313,7 @@
               "answers": [
                 "shorter"
               ],
-              "explanation": "Đáp án là “shorter”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Có từ “than” để so sánh hai người hoặc hai vật. Tính từ được đổi sang dạng so sánh hơn “shorter” bằng cách thêm -er."
             }
           ]
         }
@@ -350,7 +350,7 @@
               "answers": [
                 "b"
               ],
-              "explanation": "Chọn phương án B. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "“untidy” nghĩa là “bừa bộn”. Hình mang chữ B thể hiện đúng đặc điểm này, nên con nối từ với hình đó."
             },
             {
               "id": "u14e1q2",
@@ -371,7 +371,7 @@
               "answers": [
                 "c"
               ],
-              "explanation": "Chọn phương án C. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "“wet” nghĩa là “bị ướt”. Hình mang chữ C thể hiện đúng đặc điểm này, nên con nối từ với hình đó."
             },
             {
               "id": "u14e1q3",
@@ -392,7 +392,7 @@
               "answers": [
                 "e"
               ],
-              "explanation": "Chọn phương án E. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "“naughty” nghĩa là “nghịch ngợm”. Hình mang chữ E thể hiện đúng đặc điểm này, nên con nối từ với hình đó."
             },
             {
               "id": "u14e1q4",
@@ -413,7 +413,7 @@
               "answers": [
                 "a"
               ],
-              "explanation": "Chọn phương án A. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "“tidy” nghĩa là “gọn gàng”. Hình mang chữ A thể hiện đúng đặc điểm này, nên con nối từ với hình đó."
             }
           ]
         },
@@ -436,7 +436,7 @@
               "answers": [
                 "rubbish"
               ],
-              "explanation": "Đáp án là “rubbish”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“rubbish” nghĩa là “rác”. Mẫu “r _ _ _ _ _” còn thiếu u-b-b-i-s-h; điền đúng sẽ được r-u-b-b-i-s-h."
             },
             {
               "id": "u14e2q2",
@@ -451,7 +451,7 @@
               "answers": [
                 "photo"
               ],
-              "explanation": "Đáp án là “photo”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“photo” nghĩa là “bức ảnh”. Mẫu “p _ _ _ _” còn thiếu h-o-t-o; điền đúng sẽ được p-h-o-t-o."
             },
             {
               "id": "u14e2q3",
@@ -466,7 +466,7 @@
               "answers": [
                 "fridge"
               ],
-              "explanation": "Đáp án là “fridge”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“fridge” nghĩa là “tủ lạnh”. Mẫu “f _ _ _ _ _” còn thiếu r-i-d-g-e; điền đúng sẽ được f-r-i-d-g-e."
             }
           ]
         },
@@ -492,7 +492,7 @@
               "answers": [
                 "was"
               ],
-              "explanation": "Đáp án là “was”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu nói về quá khứ; chủ ngữ là số ít nên dùng was/wasn't. Đáp án đúng là “was”."
             },
             {
               "id": "u14e3q2",
@@ -507,7 +507,7 @@
               "answers": [
                 "were"
               ],
-              "explanation": "Đáp án là “were”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu nói về quá khứ; chủ ngữ là số nhiều nên dùng were/weren't. Đáp án đúng là “were”."
             },
             {
               "id": "u14e3q3",
@@ -522,7 +522,7 @@
               "answers": [
                 "were"
               ],
-              "explanation": "Đáp án là “were”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu nói về quá khứ; chủ ngữ là số nhiều nên dùng were/weren't. Đáp án đúng là “were”."
             },
             {
               "id": "u14e3q4",
@@ -537,7 +537,7 @@
               "answers": [
                 "was"
               ],
-              "explanation": "Đáp án là “was”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu nói về quá khứ; chủ ngữ là số ít nên dùng was/wasn't. Đáp án đúng là “was”."
             }
           ]
         },
@@ -563,7 +563,7 @@
               "answers": [
                 "weren't"
               ],
-              "explanation": "Đáp án là “weren't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu nói về quá khứ; chủ ngữ là số nhiều nên dùng were/weren't. Đáp án đúng là “weren't”."
             },
             {
               "id": "u14e4q2",
@@ -581,7 +581,7 @@
               "answers": [
                 "weren't"
               ],
-              "explanation": "Đáp án là “weren't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu nói về quá khứ; chủ ngữ là số nhiều nên dùng were/weren't. Đáp án đúng là “weren't”."
             },
             {
               "id": "u14e4q3",
@@ -599,7 +599,7 @@
               "answers": [
                 "wasn't"
               ],
-              "explanation": "Đáp án là “wasn't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu nói về quá khứ; chủ ngữ là số ít nên dùng was/wasn't. Đáp án đúng là “wasn't”."
             },
             {
               "id": "u14e4q4",
@@ -617,7 +617,7 @@
               "answers": [
                 "weren't"
               ],
-              "explanation": "Đáp án là “weren't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu nói về quá khứ; chủ ngữ là số nhiều nên dùng were/weren't. Đáp án đúng là “weren't”."
             }
           ]
         }
@@ -651,7 +651,7 @@
               "answers": [
                 "children"
               ],
-              "explanation": "Đáp án là “children”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "three lớn hơn 1 nên danh từ phải ở số nhiều. Vì vậy chọn “children”; danh từ được thêm -s hoặc đổi sang dạng số nhiều phù hợp."
             },
             {
               "id": "u15e1q2",
@@ -669,7 +669,7 @@
               "answers": [
                 "teddies"
               ],
-              "explanation": "Đáp án là “teddies”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "four lớn hơn 1 nên danh từ phải ở số nhiều. Vì vậy chọn “teddies”; danh từ được thêm -s hoặc đổi sang dạng số nhiều phù hợp."
             },
             {
               "id": "u15e1q3",
@@ -687,7 +687,7 @@
               "answers": [
                 "man"
               ],
-              "explanation": "Đáp án là “man”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "one chỉ một nên danh từ ở số ít. Vì vậy chọn “man”; không thêm -s."
             },
             {
               "id": "u15e1q4",
@@ -705,7 +705,7 @@
               "answers": [
                 "women"
               ],
-              "explanation": "Đáp án là “women”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "four lớn hơn 1 nên danh từ phải ở số nhiều. Vì vậy chọn “women”; danh từ được thêm -s hoặc đổi sang dạng số nhiều phù hợp."
             },
             {
               "id": "u15e1q5",
@@ -723,7 +723,7 @@
               "answers": [
                 "duck"
               ],
-              "explanation": "Đáp án là “duck”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "one chỉ một nên danh từ ở số ít. Vì vậy chọn “duck”; không thêm -s."
             }
           ]
         },
@@ -746,7 +746,7 @@
               "answers": [
                 "fourth"
               ],
-              "explanation": "Đáp án là “fourth”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“fourth” là số thứ tự chỉ vị trí của nhân vật trong hình. Con dùng số thứ tự, không dùng số đếm."
             },
             {
               "id": "u15e2q2",
@@ -761,7 +761,7 @@
               "answers": [
                 "first"
               ],
-              "explanation": "Đáp án là “first”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“first” là số thứ tự chỉ vị trí của nhân vật trong hình. Con dùng số thứ tự, không dùng số đếm."
             },
             {
               "id": "u15e2q3",
@@ -776,7 +776,7 @@
               "answers": [
                 "third"
               ],
-              "explanation": "Đáp án là “third”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“third” là số thứ tự chỉ vị trí của nhân vật trong hình. Con dùng số thứ tự, không dùng số đếm."
             }
           ]
         },
@@ -802,7 +802,7 @@
               "answers": [
                 "any"
               ],
-              "explanation": "Đáp án là “any”. Con dựa vào câu khẳng định hoặc phủ định và danh từ phía sau để chọn."
+              "explanation": "Câu phủ định dùng any trước danh từ số nhiều. Vì vậy điền “any”."
             },
             {
               "id": "u15e3q2",
@@ -817,7 +817,7 @@
               "answers": [
                 "some"
               ],
-              "explanation": "Đáp án là “some”. Con dựa vào câu khẳng định hoặc phủ định và danh từ phía sau để chọn."
+              "explanation": "Câu khẳng định dùng some trước danh từ số nhiều. Vì vậy điền “some”."
             },
             {
               "id": "u15e3q3",
@@ -832,7 +832,7 @@
               "answers": [
                 "any"
               ],
-              "explanation": "Đáp án là “any”. Con dựa vào câu khẳng định hoặc phủ định và danh từ phía sau để chọn."
+              "explanation": "Câu phủ định dùng any trước danh từ số nhiều. Vì vậy điền “any”."
             },
             {
               "id": "u15e3q4",
@@ -847,7 +847,7 @@
               "answers": [
                 "some"
               ],
-              "explanation": "Đáp án là “some”. Con dựa vào câu khẳng định hoặc phủ định và danh từ phía sau để chọn."
+              "explanation": "Câu khẳng định dùng some trước danh từ số nhiều. Vì vậy điền “some”."
             }
           ]
         },
@@ -887,7 +887,7 @@
               "answers": [
                 "d"
               ],
-              "explanation": "Chọn phương án D. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “How many horses” với “were there” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án D."
             },
             {
               "id": "u15e4q2",
@@ -919,7 +919,7 @@
               "answers": [
                 "a"
               ],
-              "explanation": "Chọn phương án A. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “There weren't” với “any goats” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án A."
             },
             {
               "id": "u15e4q3",
@@ -951,7 +951,7 @@
               "answers": [
                 "b"
               ],
-              "explanation": "Chọn phương án B. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “There were three” với “donkeys” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án B."
             }
           ]
         }

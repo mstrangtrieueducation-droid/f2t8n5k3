@@ -74,7 +74,7 @@
               "answers": [
                 "drawers"
               ],
-              "explanation": "Đáp án là “drawers”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“drawers” nghĩa là “ngăn kéo”. Hình cho thấy đúng ngăn kéo, nên con viết chính xác d-r-a-w-e-r-s."
             },
             {
               "id": "u01e1q2",
@@ -89,7 +89,7 @@
               "answers": [
                 "poster"
               ],
-              "explanation": "Đáp án là “poster”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“poster” nghĩa là “áp phích”. Hình cho thấy đúng áp phích, nên con viết chính xác p-o-s-t-e-r."
             },
             {
               "id": "u01e1q3",
@@ -104,7 +104,7 @@
               "answers": [
                 "cupboard"
               ],
-              "explanation": "Đáp án là “cupboard”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“cupboard” nghĩa là “tủ”. Hình cho thấy đúng tủ, nên con viết chính xác c-u-p-b-o-a-r-d."
             }
           ]
         },
@@ -127,7 +127,7 @@
               "answers": [
                 "peg"
               ],
-              "explanation": "Đáp án là “peg”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “peg” để câu “p e peg” có nghĩa."
             },
             {
               "id": "u01e2q2",
@@ -142,7 +142,7 @@
               "answers": [
                 "picture"
               ],
-              "explanation": "Đáp án là “picture”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “picture” để câu “p i picture picture picture picture picture” có nghĩa."
             },
             {
               "id": "u01e2q3",
@@ -157,7 +157,7 @@
               "answers": [
                 "table"
               ],
-              "explanation": "Đáp án là “table”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “table” để câu “t table b l table” có nghĩa."
             },
             {
               "id": "u01e2q4",
@@ -172,7 +172,7 @@
               "answers": [
                 "board"
               ],
-              "explanation": "Đáp án là “board”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Quan sát đúng người, vật hoặc hành động trong hình rồi đọc cả câu. Phần còn thiếu phải là “board” để câu “b board board board board” có nghĩa."
             }
           ]
         },
@@ -198,7 +198,7 @@
               "answers": [
                 "are"
               ],
-              "explanation": "Đáp án là “are”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu dùng động từ to be ở hiện tại; chủ ngữ là số nhiều nên dùng are/aren't. Đáp án đúng là “are”."
             },
             {
               "id": "u01e3q2",
@@ -213,7 +213,7 @@
               "answers": [
                 "are"
               ],
-              "explanation": "Đáp án là “are”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu dùng động từ to be ở hiện tại; chủ ngữ là số nhiều nên dùng are/aren't. Đáp án đúng là “are”."
             },
             {
               "id": "u01e3q3",
@@ -228,7 +228,7 @@
               "answers": [
                 "are"
               ],
-              "explanation": "Đáp án là “are”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu dùng động từ to be ở hiện tại; chủ ngữ là số nhiều nên dùng are/aren't. Đáp án đúng là “are”."
             },
             {
               "id": "u01e3q4",
@@ -243,7 +243,7 @@
               "answers": [
                 "is"
               ],
-              "explanation": "Đáp án là “is”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu dùng động từ to be ở hiện tại; chủ ngữ là số ít nên dùng is/isn't. Đáp án đúng là “is”."
             },
             {
               "id": "u01e3q5",
@@ -258,7 +258,7 @@
               "answers": [
                 "are"
               ],
-              "explanation": "Đáp án là “are”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu dùng động từ to be ở hiện tại; chủ ngữ là số nhiều nên dùng are/aren't. Đáp án đúng là “are”."
             }
           ]
         },
@@ -286,7 +286,7 @@
               "answers": [
                 "This"
               ],
-              "explanation": "Đáp án là “This”. This/That dùng với một người hoặc vật; These/Those dùng với nhiều người hoặc vật."
+              "explanation": "“This” dùng cho một đồ vật ở gần. Vì vậy câu đúng là “This is my pencil case”."
             },
             {
               "id": "u01e4q2",
@@ -301,7 +301,7 @@
               "answers": [
                 "That"
               ],
-              "explanation": "Đáp án là “That”. This/That dùng với một người hoặc vật; These/Those dùng với nhiều người hoặc vật."
+              "explanation": "“That” dùng cho một đồ vật ở xa. Vì vậy câu đúng là “That is my table”."
             },
             {
               "id": "u01e4q3",
@@ -316,7 +316,7 @@
               "answers": [
                 "Those"
               ],
-              "explanation": "Đáp án là “Those”. This/That dùng với một người hoặc vật; These/Those dùng với nhiều người hoặc vật."
+              "explanation": "“Those” dùng cho nhiều đồ vật ở xa. Vì vậy câu đúng là “Those are my books”."
             }
           ]
         }
@@ -347,7 +347,7 @@
               "answers": [
                 "cold"
               ],
-              "explanation": "Đáp án là “cold”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Sắp xếp các chữ They-re-o-l-d-c thành “cold”, nghĩa là “lạnh”. Thứ tự đúng là c-o-l-d."
             },
             {
               "id": "u02e1q2",
@@ -362,7 +362,7 @@
               "answers": [
                 "brave"
               ],
-              "explanation": "Đáp án là “brave”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Sắp xếp các chữ She-s-v-b-r-a-e thành “brave”, nghĩa là “dũng cảm”. Thứ tự đúng là b-r-a-v-e."
             },
             {
               "id": "u02e1q3",
@@ -377,7 +377,7 @@
               "answers": [
                 "hungry"
               ],
-              "explanation": "Đáp án là “hungry”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Sắp xếp các chữ We-re-g-r-y-h-u-n thành “hungry”, nghĩa là “đói”. Thứ tự đúng là h-u-n-g-r-y."
             },
             {
               "id": "u02e1q4",
@@ -392,7 +392,7 @@
               "answers": [
                 "happy"
               ],
-              "explanation": "Đáp án là “happy”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Sắp xếp các chữ I-m-a-p-h-p-y thành “happy”, nghĩa là “vui”. Thứ tự đúng là h-a-p-p-y."
             },
             {
               "id": "u02e1q5",
@@ -407,7 +407,7 @@
               "answers": [
                 "sad"
               ],
-              "explanation": "Đáp án là “sad”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Sắp xếp các chữ He-s-d-a-s thành “sad”, nghĩa là “buồn”. Thứ tự đúng là s-a-d."
             }
           ]
         },
@@ -432,7 +432,7 @@
               "answers": [
                 "tired"
               ],
-              "explanation": "Đáp án là “tired”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“tired” nghĩa là “mệt”. Hình cho thấy đúng mệt, nên con viết chính xác t-i-r-e-d."
             },
             {
               "id": "u02e2q2",
@@ -447,7 +447,7 @@
               "answers": [
                 "hot"
               ],
-              "explanation": "Đáp án là “hot”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“hot” nghĩa là “nóng”. Hình cho thấy đúng nóng, nên con viết chính xác h-o-t."
             },
             {
               "id": "u02e2q3",
@@ -462,7 +462,7 @@
               "answers": [
                 "angry"
               ],
-              "explanation": "Đáp án là “angry”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“angry” nghĩa là “tức giận”. Hình cho thấy đúng tức giận, nên con viết chính xác a-n-g-r-y."
             },
             {
               "id": "u02e2q4",
@@ -477,7 +477,7 @@
               "answers": [
                 "thirsty"
               ],
-              "explanation": "Đáp án là “thirsty”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“thirsty” nghĩa là “khát”. Hình cho thấy đúng khát, nên con viết chính xác t-h-i-r-s-t-y."
             }
           ]
         },
@@ -504,7 +504,7 @@
               "answers": [
                 "She's"
               ],
-              "explanation": "Đáp án là “She's”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“She's” là dạng viết tắt của “She is”. Chủ ngữ trong hình khớp với dạng này, nên câu hoàn chỉnh là “He's / She's / We're hot”."
             },
             {
               "id": "u02e3q2",
@@ -523,7 +523,7 @@
               "answers": [
                 "I'm"
               ],
-              "explanation": "Đáp án là “I'm”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“I'm” là dạng viết tắt của “I am”. Chủ ngữ trong hình khớp với dạng này, nên câu hoàn chỉnh là “I'm / We're / They're angry”."
             },
             {
               "id": "u02e3q3",
@@ -542,7 +542,7 @@
               "answers": [
                 "They're"
               ],
-              "explanation": "Đáp án là “They're”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“They're” là dạng viết tắt của “They are”. Chủ ngữ trong hình khớp với dạng này, nên câu hoàn chỉnh là “I'm / He's / They're thirsty”."
             }
           ]
         },
@@ -568,7 +568,7 @@
               "answers": [
                 "aren't"
               ],
-              "explanation": "Đáp án là “aren't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu dùng động từ to be ở hiện tại; chủ ngữ là số nhiều nên dùng are/aren't. Đáp án đúng là “aren't”."
             },
             {
               "id": "u02e4q2",
@@ -583,7 +583,7 @@
               "answers": [
                 "aren't"
               ],
-              "explanation": "Đáp án là “aren't”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu dùng động từ to be ở hiện tại; chủ ngữ là số nhiều nên dùng are/aren't. Đáp án đúng là “aren't”."
             },
             {
               "id": "u02e4q3",
@@ -598,7 +598,7 @@
               "answers": [
                 "are"
               ],
-              "explanation": "Đáp án là “are”. Con nhìn chủ ngữ và số ít/số nhiều để chọn đúng dạng của động từ be."
+              "explanation": "Câu dùng động từ to be ở hiện tại; chủ ngữ là số nhiều nên dùng are/aren't. Đáp án đúng là “are”."
             }
           ]
         }
@@ -629,7 +629,7 @@
               "answers": [
                 "play football"
               ],
-              "explanation": "Đáp án là “play football”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“play football” nghĩa là “chơi bóng đá”. Mẫu “p _ _ _  f _ _ _ _ _ _ _” còn thiếu l-a-y-o-o-t-b-a-l-l; điền đúng sẽ được p-l-a-y-/-f-o-o-t-b-a-l-l."
             },
             {
               "id": "u03e1q2",
@@ -644,7 +644,7 @@
               "answers": [
                 "ride a bike"
               ],
-              "explanation": "Câu hoàn chỉnh là “ride a bike”. Con đọc lại cả câu để kiểm tra ngữ pháp và trật tự từ."
+              "explanation": "“ride a bike” nghĩa là “đi xe đạp”. Mẫu “r _ _ _  a  b _ _ _” còn thiếu i-d-e-i-k-e; điền đúng sẽ được r-i-d-e-/-a-/-b-i-k-e."
             },
             {
               "id": "u03e1q3",
@@ -659,7 +659,7 @@
               "answers": [
                 "skate"
               ],
-              "explanation": "Đáp án là “skate”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“skate” nghĩa là “trượt patin”. Mẫu “s _ _ _ _” còn thiếu k-a-t-e; điền đúng sẽ được s-k-a-t-e."
             },
             {
               "id": "u03e1q4",
@@ -674,7 +674,7 @@
               "answers": [
                 "ride a horse"
               ],
-              "explanation": "Câu hoàn chỉnh là “ride a horse”. Con đọc lại cả câu để kiểm tra ngữ pháp và trật tự từ."
+              "explanation": "“ride a horse” nghĩa là “cưỡi ngựa”. Mẫu “r _ _ _  a  h _ _ _ _” còn thiếu i-d-e-o-r-s-e; điền đúng sẽ được r-i-d-e-/-a-/-h-o-r-s-e."
             },
             {
               "id": "u03e1q5",
@@ -689,7 +689,7 @@
               "answers": [
                 "play tennis"
               ],
-              "explanation": "Đáp án là “play tennis”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "“play tennis” nghĩa là “chơi quần vợt”. Mẫu “p _ _ _  t _ _ _ _ _” còn thiếu l-a-y-e-n-n-i-s; điền đúng sẽ được p-l-a-y-/-t-e-n-n-i-s."
             }
           ]
         },
@@ -715,7 +715,7 @@
               "answers": [
                 "between"
               ],
-              "explanation": "Đáp án là “between”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Hình thể hiện “between”, nên chọn “between”, không chọn “The kite is between”."
             },
             {
               "id": "u03e2q2",
@@ -733,7 +733,7 @@
               "answers": [
                 "on"
               ],
-              "explanation": "Đáp án là “on”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Hình thể hiện “on”, nên chọn “on”, không chọn “The train is under”."
             },
             {
               "id": "u03e2q3",
@@ -751,7 +751,7 @@
               "answers": [
                 "behind"
               ],
-              "explanation": "Đáp án là “behind”. Con đối chiếu hình hoặc ngữ cảnh trong đề để nhận ra từ phù hợp."
+              "explanation": "Hình thể hiện “behind”, nên chọn “behind”, không chọn “The poster is in front of”."
             }
           ]
         },
@@ -777,7 +777,7 @@
               "answers": [
                 "can"
               ],
-              "explanation": "Đáp án là “can”. Can diễn tả có thể làm được; can't diễn tả không thể làm được."
+              "explanation": "“can” nói ai đó có thể làm việc gì; “can't” nói không thể. Hình cho thấy câu trả lời khẳng định, nên đáp án đầy đủ là “can”."
             },
             {
               "id": "u03e3q2",
@@ -792,7 +792,7 @@
               "answers": [
                 "can't"
               ],
-              "explanation": "Đáp án là “can't”. Can diễn tả có thể làm được; can't diễn tả không thể làm được."
+              "explanation": "“can” nói ai đó có thể làm việc gì; “can't” nói không thể. Hình cho thấy câu trả lời phủ định, nên đáp án đầy đủ là “can't”."
             },
             {
               "id": "u03e3q3",
@@ -807,7 +807,7 @@
               "answers": [
                 "can't"
               ],
-              "explanation": "Đáp án là “can't”. Can diễn tả có thể làm được; can't diễn tả không thể làm được."
+              "explanation": "“can” nói ai đó có thể làm việc gì; “can't” nói không thể. Hình cho thấy câu trả lời phủ định, nên đáp án đầy đủ là “can't”."
             },
             {
               "id": "u03e3q4",
@@ -822,7 +822,7 @@
               "answers": [
                 "can"
               ],
-              "explanation": "Đáp án là “can”. Can diễn tả có thể làm được; can't diễn tả không thể làm được."
+              "explanation": "“can” nói ai đó có thể làm việc gì; “can't” nói không thể. Hình cho thấy câu trả lời khẳng định, nên đáp án đầy đủ là “can”."
             }
           ]
         },
@@ -862,7 +862,7 @@
               "answers": [
                 "b"
               ],
-              "explanation": "Chọn phương án B. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “Can Ben play tennis” với “Yes, he can” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án B."
             },
             {
               "id": "u03e4q2",
@@ -894,7 +894,7 @@
               "answers": [
                 "d"
               ],
-              "explanation": "Chọn phương án D. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “Can Kim skate” với “No, she can't” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án D."
             },
             {
               "id": "u03e4q3",
@@ -926,7 +926,7 @@
               "answers": [
                 "a"
               ],
-              "explanation": "Chọn phương án A. Con đối chiếu ý số tương ứng với các phương án trong phần đề bài."
+              "explanation": "Ghép “Can Ben ride a bike” với “No, he can't” để tạo thành một câu hoặc một cụm từ có nghĩa hoàn chỉnh. Vì vậy chọn phương án A."
             }
           ]
         }
